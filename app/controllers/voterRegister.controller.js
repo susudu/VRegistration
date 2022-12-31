@@ -20,10 +20,10 @@ exports.create = (req, res) => {
     age: req.body.age,
     gender: req.body.gender,
     ssn: req.body.ssn,
-    houseno: req.body.house_no,
-    streetname: req.body.street_name,
+    house_no: req.body.house_no,
+    street_name: req.body.street_name,
     city: req.body.city,
-    mobileno: req.body.mobile_no,
+    mobile_no: req.body.mobile_no,
     rdate: req.body.rdate,
     vstatus: req.body.vstatus
   });
