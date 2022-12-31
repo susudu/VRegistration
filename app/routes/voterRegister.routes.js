@@ -3,5 +3,5 @@ module.exports = app => {
   var router = require("express").Router();
   // Insert a new user
   router.post("/", vstats.create);
-  app.use('/api/vstats', router);
+  app.use('/api/vregister', router);
 };
