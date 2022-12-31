@@ -16,13 +16,14 @@ exports.create = (req, res) => {
   const register = new Register({
     fname: req.body.fname,
     lname: req.body.lname,
-    gender: req.body.gender,
     dob: req.body.dob,
     age: req.body.age,
-    telno: req.body.telno,
-    houseno: req.body.houseno,
-    streetname: req.body.streetname,
+    gender: req.body.gender,
+    ssn: req.body.ssn,
+    houseno: req.body.house_no,
+    streetname: req.body.street_name,
     city: req.body.city,
+    mobileno: req.body.mobile_no,
     rdate: req.body.rdate,
     vstatus: req.body.vstatus
   });
